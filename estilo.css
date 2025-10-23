@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(199, 255, 176);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- CAPA ----- */
+.capa {
+    width: 100vw;
+    height: 600px;
+    background-image: url("img/capa_ods_desktop_v2 (1).png");
+    display: flex;
+    justify-content: center;
+    align-items: center; /* adicionado para centralizar verticalmente */
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* adiciona centralização da imagem */
+    text-align: center;
+}
+
+.capa h1 {
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+}
+
+.capa ul {
+    list-style: none; /* remove marcadores padrão */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.capa ul li {
+    background-color: #2e7d32;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* animação suave */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.capa ul li:hover {
+    background-color: #1b5e20;
+}
+a{
+    color: black ;
+    text-decoration: none;
+}
+/* ----- VÍDEO ----- */
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+/* ----- IMAGEM CENTRAL ----- */
+.centralizar-imagem {
+    display: block;
+    margin: 50px auto;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+/* ----- TEXTO GERAL ----- */
+.introducao, .descri, .texto, .objetivo, .impacto, .conclu {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: aliceblue;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    border-left: 6px solid rgb(41, 100, 41);
+}
+
+/* ----- TÍTULOS ----- */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(0, 80, 0);
+}
+
+h2 {
+    font-size: 26px;
+    color: rgb(30, 30, 30);
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* ----- OBJETIVO E IMPACTO ----- */
+.objetivo ol, .impacto ol {
+    margin-left: 20px;
+}
+
+.objetivo li {
+    margin-bottom: 10px;
+}
+
+/* ----- CONCLUSÃO ----- */
+.conclu h1 {
+    color: rgb(0, 80, 0);
+    font-size: 40px;
+}
+
+.voltar-topo {
+  position: fixed;
+  bottom: 20px;       /* distância do rodapé */
+  right: 20px;        /* distância da lateral direita */
+  background-color: #73c45f;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.voltar-topo:hover {
+  background-color: #45a049;
+}
