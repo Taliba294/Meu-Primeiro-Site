@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(199, 255, 176);
+    background-color: rgb(190, 255, 164);
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body {
 }
 
 .capa ul li {
-    background-color: #2e7d32;
+    background-color: #59c25e;
     padding: 20px;
     border-radius: 8px;
     width: 200px;
@@ -120,18 +120,35 @@ p {
 
 .voltar-topo {
   position: fixed;
-  bottom: 20px;       /* distância do rodapé */
-  right: 20px;        /* distância da lateral direita */
-  background-color: #73c45f;
+  top: 20px;          /* distância do topo */
+  left: 20px;         /* distância da lateral esquerda */
+  background-color: #519141;
   color: white;
   padding: 10px 15px;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 40px;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
   transition: background-color 0.3s;
 }
 
 .voltar-topo:hover {
   background-color: #45a049;
+}
+
+.botao {
+  position: fixed;           /* fixa o botão na tela */
+  right: 20px;               /* distância da lateral direita */
+  bottom: 20px;              /* distância do rodapé */
+  background-color: #4CAF50; /* cor do botão */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;     /* tira o sublinhado */
+  border-radius: 8px;        /* cantos arredondados */
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #45a049; /* cor quando passa o mouse */
 }
