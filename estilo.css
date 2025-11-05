@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(190, 255, 164);
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 230, 136);
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,29 +12,32 @@ body {
     background-image: url("img/capa_ods_desktop_v2 (1).png");
     display: flex;
     justify-content: center;
-    align-items: center; /* adicionado para centralizar verticalmente */
+    align-items: center;
+    /* adicionado para centralizar verticalmente */
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* adiciona centralização da imagem */
+    background-position: center;
+    /* adiciona centralização da imagem */
     text-align: center;
 }
 
 .capa h1 {
     font-size: 55px;
     color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
 }
 
 .capa ul {
-    list-style: none; /* remove marcadores padrão */
+    list-style: none;
+    /* remove marcadores padrão */
     display: flex;
     flex-direction: column;
     gap: 15px;
     justify-content: center;
     padding: 0;
-    
+
 }
 
 .capa ul li {
@@ -43,7 +46,8 @@ body {
     border-radius: 8px;
     width: 200px;
     text-align: center;
-    transition: background-color 0.3s ease; /* animação suave */
+    transition: background-color 0.3s ease;
+    /* animação suave */
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -52,10 +56,12 @@ body {
 .capa ul li:hover {
     background-color: #1b5e20;
 }
-a{
-    color: black ;
+
+a {
+    color: black;
     text-decoration: none;
 }
+
 /* ----- VÍDEO ----- */
 .video {
     display: flex;
@@ -72,7 +78,12 @@ a{
 }
 
 /* ----- TEXTO GERAL ----- */
-.introducao, .descri, .texto, .objetivo, .impacto, .conclu {
+.introducao,
+.descri,
+.texto,
+.objetivo,
+.impacto,
+.conclu {
     max-width: 1000px;
     margin: 40px auto;
     background-color: aliceblue;
@@ -81,7 +92,7 @@ a{
     text-align: justify;
     font-size: 1.1em;
     color: black;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     border-left: 6px solid rgb(41, 100, 41);
 }
 
@@ -104,7 +115,8 @@ p {
 }
 
 /* ----- OBJETIVO E IMPACTO ----- */
-.objetivo ol, .impacto ol {
+.objetivo ol,
+.impacto ol {
     margin-left: 20px;
 }
 
@@ -119,36 +131,48 @@ p {
 }
 
 .voltar-topo {
-  position: fixed;
-  top: 20px;          /* distância do topo */
-  left: 20px;         /* distância da lateral esquerda */
-  background-color: #519141;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 40px;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-  transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #519141;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
 }
 
 .voltar-topo:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .botao {
-  position: fixed;           /* fixa o botão na tela */
-  right: 20px;               /* distância da lateral direita */
-  bottom: 20px;              /* distância do rodapé */
-  background-color: #4CAF50; /* cor do botão */
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;     /* tira o sublinhado */
-  border-radius: 8px;        /* cantos arredondados */
-  font-size: 16px;
-  transition: background-color 0.3s;
+    position: fixed;
+    /* fixa o botão na tela */
+    right: 20px;
+    /* distância da lateral direita */
+    bottom: 20px;
+    /* distância do rodapé */
+    background-color: #4CAF50;
+    /* cor do botão */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    /* tira o sublinhado */
+    border-radius: 8px;
+    /* cantos arredondados */
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .botao:hover {
-  background-color: #45a049; /* cor quando passa o mouse */
+    background-color: #45a049;
+    /* cor quando passa o mouse */
 }
